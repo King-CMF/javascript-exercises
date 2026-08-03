@@ -12,7 +12,6 @@
 
 
 
-
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
@@ -23,3 +22,8 @@ module.exports = {
   fullName: typeof fullName === 'undefined' ? undefined : fullName,
   age: typeof age === 'undefined' ? undefined : age
 }
+
+const fullName = firstName + lastName
+age = birthyear - thisyear
+
+const greeting = "hello! My name is " + fullname + "and I " + age + "am 18 years old"
